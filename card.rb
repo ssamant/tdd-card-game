@@ -8,7 +8,7 @@ class Card
     :spades
   ]
 
-  VALUES = (2..10).to_a
+  VALUES = (2..10).to_a + %w(J Q K A)
 
   def initialize(suit, val)
     if !SUITS.include?(suit)

@@ -44,6 +44,7 @@ describe Card do
   describe "#print" do
     let(:other_card) { Card.new(:hearts, 2) }
     it "something to do with printing" do
+      skip
       c = Card.new()
       c.print.must_be_instance_of(String)
     end
