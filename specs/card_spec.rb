@@ -13,5 +13,10 @@ describe Card do
       @card.value.must_equal 11
     end
 
+    it "has suit hearts" do
+      @card.suit.must_equal :hearts
+
+    end
+
   end
 end
