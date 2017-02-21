@@ -9,6 +9,9 @@ describe Card do
   end
 
   describe "Checking Card Value" do
+    it "has value of 11" do
+      @card.value.must_equal 11
+    end
 
   end
 end
